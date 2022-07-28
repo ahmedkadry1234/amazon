@@ -15,19 +15,46 @@
          <div class="nav-belt">
            <div class="nav-left">
              <div id="nav-logo">
-                <a href="/" >
-                  <span class="sprite sprite-amazon-base-logo " ><span/> 
+                <a href="/" id="navbar-logo-sprite">
+                  <span class="sprite sprite-amazon-base-logo" id="logo-responsive"></span> 
                 </a>
              </div>
-             <div id="nav-global-location">
-              
-             </div>
+             <div class="nav-location">
+               
+               <div id="nav-global-location">
+                  <span class="sprite sprite-location" id="location-responsive"></span>
+               </div>
+               <div class="nav-location-address">
+                <span class="nav-address1" id="nav-address1-id">Deliver to</span>
+                <span class="nav-address2" id="nav-address2-id">Austria</span>
+               </div>
+               
+              </div>
            </div>
+           <div class="nav-middel">
+             <form action="/" method="get" name="nav-search" role="search" class="nav-search-bar">
+              <div class="nav-middel-left">
+                <div id="search-arrow-nav" class="sprite sprite-transparent-down"></div>
+                <select name="nav-department" id="nav-department" >
+                  <option selected="selected" value="search-all">All Departments</option>
+                  <option value="search-arts">Arts &amp; Crafts</option>
+                  <option value="search-automotive">Automotive</option>
+                  <option value="search-baby">Baby</option>
+                  <option value="search-beaut">Beauty and personl care</option>
+                </select>
+              </div>
+              <div class="nav-middel-middel">
+                <input type="text" class="search">
+              </div>
+              <div class="nav-right-middel">
+                <input type="submit" value="" id="search-btn" class="sprite sprite-search">
+              </div>
+             </form>
+            </div> 
+          </div>
          </div>
+         <div class="nav-lower"></div>
       </nav>
     </header>
-    <span class="sprit sprite-amazon-base-logo">
-      <a href="#"></a>
-    </span>
   </body>
 </html>

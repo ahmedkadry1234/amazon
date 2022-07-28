@@ -6,10 +6,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'amazon_embermedium';
     src: url('font woff/amazon_ember_medium-webfont.woff2') format('woff2'),
@@ -20,8 +16,6 @@
 
 
 }
-
-
 @font-face {
     font-family: 'amazon_emberthin';
     src: url('font woff/amazon_ember_thin-webfont.woff2') format('woff2'),
@@ -30,10 +24,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'amazon_emberregular';
     src: url('font woff/amazon_ember-webfont.woff2') format('woff2'),
@@ -42,11 +32,25 @@
     font-style: normal;
 
 }
+*{
+    box-sizing: border-box;
+}  
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'amazon_emberregular', sans-serif, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 :root{
-  --colore-primary: #131A22;
+  --colore-primary: #131921;
   --colore-secondary: #37475A;
-  --colore-tertiary: #232F3E;
+  --colore-tertiary: #232f3e;
   --colore-accente: #FEBD69;
   --colore-sale: #B22222;
   --colore-link: #4d79ff;
@@ -60,7 +64,7 @@
 .sprite {
     background-image: url('../images/spritesheet.png');
     background-repeat: no-repeat;
-    display: inline-block;
+    display: inline-block; 
 }
 
 .sprite-amazon-base-logo { 
@@ -94,9 +98,9 @@
 }
 
 .sprite-down {
-    width: 21px;
+    width: 40px;
     height: 22px;
-    background-position: -349px -5px;
+    background-position: -400px -5px;
 }
 
 .sprite-hmenu {
@@ -114,7 +118,7 @@
 .sprite-location {
     width: 57px;
     height: 46px;
-    background-position: -465px -5px;
+    background-position: -370px -5px;
 }
 
 .sprite-right {
@@ -126,7 +130,7 @@
 .sprite-search {
     width: 34px;
     height: 41px;
-    background-position: -563px -5px;
+    background-position: -555px -5px;
 }
 
 .sprite-transparent-arrow-left {
@@ -148,27 +152,161 @@
 }
 
 .nav-main .nav-bar {
-    width: 133px;
-    height: 99px;
+    width: 100%;
+    height: 9.9rem;
 }
 
 .nav-belt {
-    width: 1000px;
-    height: 60px;
+    background-color: var(--colore-primary);
+    width: 100%;
+    height: 6rem;
+}
+.nav-lower {
+    background-color: var(--colore-tertiary);
+    width: 100%;
+    height: 3.9rem;
 }
 .nav-left {
-    width: 205px;
-    height: 60px;
+    width: 21.66rem;
+    height: 6rem;
 }
 #nav-logo {
-    width: 113px;
-    height: 60px;
+    width: 11.3rem;
+    height: 6rem;
 }
 #navbar-logo-sprite{
-    width: 113px;
-    height: 50px;
+    width: 11.3rem;
+    height: 5rem;
   
+} 
+.nav-belt {
+display: flex;
+}  
+.nav-left {
+display: flex;
+} 
+
+.nav-location {
+    margin-left: 1.5rem;
+    width: 9rem;
+    display: flex; 
+}
+ #nav-logo{
+    position: relative;
+    right: -0.8rem;
+    bottom: -0.7rem;
+}
+ #nav-global-location {
+      display: flex;
+      width: 9.9rem;
+      height: 6rem;
+      position: relative;
+      left: -2.5rem;
+      bottom: -1rem;
+}  
+#nav-address1-id {
+    font-family: 'amazon_embermedium'; 
+    color: #ccc;
+    white-space: nowrap ; 
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#nav-address2-id {
+    font-family: 'amazon_emberbold';
+    color: #fff;
+    font-size: 1.449rem;
+    font-weight: 700;
+    line-height: 1.1rem;
+
+}
+.nav-location-address {
+    position: relative;
+    top: 1.8rem;
+    right: 3.8rem
+}
+ #logo-responsive{
+    background-size: 70rem;
+    width: 12rem;
+} 
+#location-responsive{
+    position: relative;
+    top: 0.9rem;
+    right: 0.2rem;
+    margin-left: 20px;
+    background-size: 55rem;
+    width: 4.3rem;
+} 
+.nav-middel {
+    display: flex;
+    width: auto;
+    height: 6rem;
+
+} 
+.nav-search-bar{
+    display: flex;
+    width: 73.5rem;
+    height: 4rem;
+    margin-top: 1rem ;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    outline: 0.3rem solid #ff9933; 
+}
+.nav-middel-left {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: 4rem;
+    margin-right: 0;
+    
 }
 
+#nav-department {   
+ position: relative;
+ left: -2.1rem;
+ display: flex;    
+ height: 4rem;
+ width: auto;
+ background-color: #f2f2f2;
+ padding-left: 1rem;
+ appearance: none;
+ font-size: 1.1rem;
+ color: #555;
+ border-radius: 0.4rem 0 0 0.4rem;
+ border-color:#f2f2f2;
+ border-right: 0.1rem solid #c2c2a3; 
+ outline: 0;
 
+}
+#search-arrow-nav {
+    position:relative;
+    left: 11rem;
+    z-index: 1;
+}
+.nav-middel-middel {
+    position: relative;
+    left: -2.02rem;
+    width: 56rem;
+    height: 4rem;
+}
+.search {
+    border: none;
+    width: 56rem;
+    height: 4rem;
+    outline: 0;
+}
+.nav-right-middel {
+    position: relative;
+    right: 2.3rem;
+    width: 4.5rem;
+    height: 4rem;
+}
+
+#search-btn{
+    background-color: #ffc266;
+    width: 4.5rem;
+    height: 4rem;
+    border-radius: 0 0.4rem 0.4rem 0;
+    border: none;
+    outline: 0;
+    
+}
 
