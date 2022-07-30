@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.g {
+    display: flex;
+    width:100px;
+    height:100px;
+    background-color: black;
+
+}
+.h{
+    position: relative; 
+    margin-top: 8rem;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.j{ 
+    
+    width: 20px;
+    height: 20px;
+    background-color: aqua;
+}

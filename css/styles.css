@@ -151,7 +151,7 @@ body{
     background-position: -669px -5px;
 }
 
-.nav-main .nav-bar {
+.nav-main , .nav-bar {
     width: 100%;
     height: 9.9rem;
 }
@@ -238,35 +238,35 @@ display: flex;
 } 
 .nav-middel {
     display: flex;
-    width: auto;
+    width: 74rem;
     height: 6rem;
+    margin-left: 1.3rem;
+    margin-right: 1rem;
 
 } 
 .nav-search-bar{
-    display: flex;
-    width: 73.5rem;
+     display: flex  ; 
+     width: 74rem ;
     height: 4rem;
     margin-top: 1rem ;
+}
+.nav-search-bar:hover {
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     outline: 0.3rem solid #ff9933; 
+
 }
 .nav-middel-left {
     position: relative;
     display: flex;
-    width: auto;
+    width: 12.2rem;
     height: 4rem;
-    margin-right: 0;
-    
-}
 
+}
 #nav-department {   
- position: relative;
- left: -2.1rem;
- display: flex;    
+ display: flex;  
  height: 4rem;
- width: auto;
+ width: 12.2rem;
  background-color: #f2f2f2;
- padding-left: 1rem;
  appearance: none;
  font-size: 1.1rem;
  color: #555;
@@ -274,32 +274,30 @@ display: flex;
  border-color:#f2f2f2;
  border-right: 0.1rem solid #c2c2a3; 
  outline: 0;
+ 
 
 }
 #search-arrow-nav {
-    position:relative;
-    left: 11rem;
+    position:absolute;
+    left: 10rem;  
     z-index: 1;
-}
+} 
 .nav-middel-middel {
-    position: relative;
-    left: -2.02rem;
-    width: 56rem;
+    width: 57.5rem;
     height: 4rem;
 }
 .search {
     border: none;
-    width: 56rem;
+    width: 57.5rem;
     height: 4rem;
     outline: 0;
 }
 .nav-right-middel {
-    position: relative;
     right: 2.3rem;
     width: 4.5rem;
     height: 4rem;
+    
 }
-
 #search-btn{
     background-color: #ffc266;
     width: 4.5rem;
