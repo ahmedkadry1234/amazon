@@ -88,7 +88,7 @@ body{
 .sprite-cart {
     width: 57px;
     height: 46px;
-    background-position: -228px -5px;
+    background-position: -170px -5px;
 }
 
 .sprite-close {
@@ -106,7 +106,8 @@ body{
 .sprite-hmenu {
     width: 44px;
     height: 41px;
-    background-position: -380px -5px;
+    background-position: -355px -5px;
+    background-size: 65rem;
 }
 
 .sprite-larg-transparent-right {
@@ -143,8 +144,8 @@ body{
     width: 21px;
     height: 22px;
     background-position: -638px -5px;
-}
-
+    
+} 
 .sprite-transparent-right {
     width: 21px;
     height: 22px;
@@ -274,7 +275,7 @@ display: flex;
  border-color:#f2f2f2;
  border-right: 0.1rem solid #c2c2a3; 
  outline: 0;
- 
+
 
 }
 #search-arrow-nav {
@@ -306,5 +307,165 @@ display: flex;
     border: none;
     outline: 0;
     
+}
+.nav-right{
+    display: flex;
+}
+.nav-language{
+    display: flex;
+    width: 5.5rem;
+    height: 5rem;
+    margin-left: 1rem;
+    padding-left: 1.5rem;
+    padding-top: 1.4rem;
+}
+.nav-flag{
+    width: 2.4rem;
+    height: 1.8rem;
+    display: inline-block;
+}
+#nav-language-flag{
+    width: 2.3rem;
+    height: 1.6rem;
+}
+#flag{
+   position: relative; 
+   top: 1.6rem;
+   right: 2.1rem;
+}
+.nav-right-line1{
+    width: 13.2rem;
+    height: 5rem;
+    text-decoration: none;
+    color: white;
+    padding-top: 1.6rem;
+    padding-left: 0.6rem;
+}
+.nav-right-line11{
+    font-family: 'amazon_embermedium';
+    font-size: 1.2rem;
+    font-weight: 4rem;
+    width: 7.2rem;
+    height: 1.4rem;
+    padding-top: rem;
+    display: block;
+}
+.nav-right-line12{
+    font-family: 'amazon_emberbold';
+    font-size: 1.4rem;
+    width: 11.3rem;
+    height: 1.5rem;
+    position: relative;
+    top: -1rem;
+}
+#nav-right-line-arrow{
+    position: relative;
+    top: 0.7rem;
+}
+.nav-right-line2{
+    width: 7.7rem;
+    height: 5rem;
+    text-decoration: none;
+    color: white;
+    padding-top: 1.6rem;
+    padding-left: 0.6rem;
+    margin-left: 1rem;
+}
+.nav-right-line21{
+    font-family: 'amazon_embermedium';
+    font-size: 1.2rem;
+    font-weight: 4rem;
+    width: 7.2rem;
+    height: 1.4rem;
+    padding-top: rem;
+    display: block;
+}
+.nav-right-line22{
+    font-family: 'amazon_emberbold';
+    font-size: 1.4rem;
+    width: 11.3rem;
+    height: 1.5rem;
+    position: relative;
+    line-height: 1.5rem;
+}
+.nav-cart-container{
+    width: 8.4rem;
+    height: 5rem;
+    text-decoration: none;
+}
+.nav-cart{
+    width: 3.9rem;
+    height: 3.9rem;
+    padding-left: 0.5rem;
+    display: inline-block;
+}
+.nav-cart-count{
+    width: 1.9rem;
+    height: 1.6rem;
+    font-size: 1.7rem;
+    color: #ff9933;
+    display: inline-block;
+    position: relative;
+    top: 1rem;
+    left: 1.7rem;
+}
+#nav-cart-cart{
+    width: 3.8rem;
+    height: 2.6rem;
+    display: inline-block;
+    background-size: 51rem;
+}
+.nav-cart-word{
+    font-family: 'amazon_emberbold';
+    width: 2.8rem;
+    height: 2.9rem;
+    font-size: 1.3rem;
+    color: white;
+    font-size: 1.4rem;
+}
+.nav-hmenu{
+    width: 7.9rem;
+    height: 3.9rem;
+    display: inline-block;
+    text-decoration: none;
+}
+#hmenu{
+    margin-left: 1rem; 
+}
+.all{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: rem;
+    position: relative;
+    bottom: 1.6rem;
+    right: 0.7rem; 
+}
+.nav-lower-{
+    width: 9.6rem;
+    height: 3.9rem;
+    color: white;
+    font-size: 1.4rem;
+    display: inline-block;
+    position: relative;
+    bottom: 3rem;
+    right: 0.7rem; 
+    text-decoration: none;
+}
+#nav-lower-{
+   position: relative;
+   top: 1.3rem;
+   left: 1rem;
+}
+.nav-lower-2{
+    width: 12.8rem;
+}
+.nav-lower-3{
+    width: 7rem;
+}
+.nav-lower-4{
+    width: 8rem;
+}
+.nav-lower-5{
+    width: 4rem;
 }
 

@@ -1,23 +1,59 @@
-*{
-    box-sizing: border-box;
+body{
+    background-color: rgb(0, 4, 255);
 }
-.g {
-    display: flex;
-    width:100px;
-    height:100px;
-    background-color: black;
+/* .h{
+    background: url("../../images/Amazon-icon.png") no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+} 
+#o{
+    width: 220px;
+    height: 120px;
+}
+#k{
+    background:  url("../../images/Amazon-icon.png" ) no-repeat;
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+   display: inline-block;
+} */
+.sprite {
+    background-image: url('../../images/spritesheet.png');
+    background-repeat: no-repeat;
+    display: inline-block; 
+}
+ .sprite-transparent-down {
+    width: 21px;
+    height: 22px;
+    background-position: -355px -5px;
 
+} 
+ #op{
+    background-size:24.5rem ;
+    width: 26px;
+    height: 26px;
+    background-position: -355px -5px;
 }
-.h{
-    position: relative; 
-    margin-top: 8rem;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-}
-.j{ 
+/*
+#j{
     
-    width: 20px;
-    height: 20px;
-    background-color: aqua;
+    width: 100px;
+    height: 100px; 
+    
+    display: inline-block;
 }
+/* #jj{
+    
+    width: 1200px;
+    height: 100px;
+    
+    display: inline-block;
+}
+#hh{
+    width: 400px;
+    height: 200px;
+} */ */
+width: 21px;
+    height: 22px;
+    background-position: -638px -5px;
